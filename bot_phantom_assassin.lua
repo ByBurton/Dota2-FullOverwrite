@@ -62,11 +62,11 @@ function paBot:QueueNuke(bot, target, actionQueue, engageDist)
     return ability.queueNuke( bot, target, actionQueue, engageDist )
 end
 
-function paBot:DoHeroSpecificInit(bot)
-    local mvAbility = bot:GetAbilityByName(SKILL_W)
-    self:setHeroVar("HasMovementAbility", {mvAbility, mvAbility:GetCastRange()})
-    self:setHeroVar("HasEscape", {mvAbility, mvAbility:GetCastRange()})
-end
+--function paBot:DoHeroSpecificInit(bot)
+    --local mvAbility = bot:GetAbilityByName(SKILL_W)
+    --self:setHeroVar("HasMovementAbility", {mvAbility, mvAbility:GetCastRange()})
+    --self:setHeroVar("HasEscape", {mvAbility, mvAbility:GetCastRange()})
+--end
 
 function Think()
     local bot = GetBot()

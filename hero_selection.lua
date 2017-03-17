@@ -6,7 +6,7 @@
 local utils = require( GetScriptDirectory().."/utility" )
 
 local RadiantBots = {
-    "npc_dota_hero_drow_ranger",
+    "npc_dota_hero_phantom_assassin",
     "npc_dota_hero_crystal_maiden",
     "npc_dota_hero_bloodseeker",
     "npc_dota_hero_invoker",
@@ -14,8 +14,8 @@ local RadiantBots = {
 }
 
 local Pos_1_Pool = {
-    "npc_dota_hero_drow_ranger",
-    --"npc_dota_hero_phantom_assassin"
+    --"npc_dota_hero_drow_ranger",
+    "npc_dota_hero_phantom_assassin"
 }
 
 local Pos_2_Pool = {
